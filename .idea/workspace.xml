@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3d85b609-6a76-4dff-956a-00512b0b590f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scrabble Project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/Controller/BoardController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/Controller/CountDownTimer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/Controller/GameController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/Controller/LetterBagController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/Controller/Test/GameTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/Model/Board.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/Model/Constants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/Model/Game.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/Model/LetterBag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/Model/LetterTile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/Model/Location.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/Model/Player.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/Model/PlayerInput.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/Model/Square.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/Model/SquareType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/Model/testTui.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/Service/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/Service/Handler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/Service/Listener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/Service/Server.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/Util/Exception/CantPlaceWordHereException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/Util/Exception/InvalidNameException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/Util/Exception/NotOwnedTileException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/Util/Exception/NotTurnException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/Util/Exception/ProtocolException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/Util/Exception/RoomFullException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/Util/Exception/ServerUnavailableException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/Util/Exception/TooFewPlayersException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/Util/Exception/TooManyPlayersException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/Util/Exception/UnknownRoomException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/Util/Exception/UnknownTileException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/Util/Exception/WordOutOfBoundsException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/Util/Exception/WrongCoordinateException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/Util/Interfaces/IBoard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/Util/Interfaces/IClientHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/Util/Interfaces/IPlayer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/Util/Interfaces/IRoom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/Util/Interfaces/IServerHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/Util/Library/WordChecker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/Util/Library/WordResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/Util/Protocol/ClientProtocol.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/Util/Protocol/ProtocolMessages.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/Util/Protocol/ServerProtocol.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/View/ANSI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/View/BoardPrinter$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/View/BoardPrinter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/View/UserInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/scrabble-project/collins_scrabble_words_2019.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/Commands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scrabble-project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/BoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/CountDownTimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/CountDownTimer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/GameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/LetterBagController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/LetterBagController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Test/GameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Test/GameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/LetterBag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/LetterBag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/LetterTile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/LetterTile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/PlayerInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/PlayerInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/SquareType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/SquareType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/testTui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/testTui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/Handler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/Listener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/Listener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Util/Exception/CantPlaceWordHereException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/Exception/CantPlaceWordHereException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Util/Exception/InvalidNameException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/Exception/InvalidNameException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Util/Exception/NotOwnedTileException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/Exception/NotOwnedTileException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Util/Exception/NotTurnException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/Exception/NotTurnException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Util/Exception/ProtocolException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/Exception/ProtocolException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Util/Exception/RoomFullException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/Exception/RoomFullException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Util/Exception/ServerUnavailableException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/Exception/ServerUnavailableException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Util/Exception/TooFewPlayersException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/Exception/TooFewPlayersException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Util/Exception/TooManyPlayersException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/Exception/TooManyPlayersException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Util/Exception/UnknownRoomException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/Exception/UnknownRoomException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Util/Exception/UnknownTileException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/Exception/UnknownTileException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Util/Exception/WordOutOfBoundsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/Exception/WordOutOfBoundsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Util/Exception/WrongCoordinateException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/Exception/WrongCoordinateException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Util/Interfaces/IBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/Interfaces/IBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Util/Interfaces/IClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/Interfaces/IClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Util/Interfaces/IPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/Interfaces/IPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Util/Interfaces/IRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/Interfaces/IRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Util/Interfaces/IServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/Interfaces/IServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Util/Library/WordChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/Library/WordChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Util/Library/WordResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/Library/WordResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Util/Protocol/ClientProtocol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/Protocol/ClientProtocol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Util/Protocol/ProtocolMessages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/Protocol/ProtocolMessages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Util/Protocol/ServerProtocol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/Protocol/ServerProtocol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/ANSI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/ANSI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/BoardPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/BoardPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/UserInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collins_scrabble_words_2019.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/collins_scrabble_words_2019.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="25FbxfxnEVum5e9uJkmntciZpVN" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Controller" />
+      <recent name="$PROJECT_DIR$/src/Service" />
+      <recent name="$PROJECT_DIR$/src/Model" />
+      <recent name="$PROJECT_DIR$/src/View" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Client (1)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Service.Client" />
+      <module name="Scrabble Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Service.Client" />
+      <module name="Scrabble Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Service.Server" />
+      <module name="Scrabble Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testTui" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Model.testTui" />
+      <module name="Scrabble Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Client (1)" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Application.testTui" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.testTui" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d85b609-6a76-4dff-956a-00512b0b590f" name="Changes" comment="" />
+      <created>1645126030192</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645126030192</updated>
+      <workItem from="1645126033371" duration="124000" />
+      <workItem from="1645250235723" duration="109000" />
+      <workItem from="1645258340941" duration="22442000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Controller/GameController.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Service/Handler.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,42 @@
+package Model;
+
+public final class Commands {
+    public static final String CONNECT = "C";
+    public static final String CONFIRM_CONNECTION = "CC";
+    public static final String JOIN_ROOM = "JR";
+    public static final String ADD_OR_REMOVE_PLAYER = "RP";
+    public static final String CREATE_ROOM_ = "CR";
+    public static final String REQUEST_ROOMS = "RR";
+    public static final String FORCE_START = "FS";
+    public static final String INITIATE_GAME = "IG";
+    public static final String ASK_MOVE = "AM";
+    public static final String MAKE_MOVE = "M";
+    public static final String SKIP_TURN = "S";
+    public static final String FEEDBACK = "F";
+    public static final String UPDATE_TABLE = "UT";
+    public static final String UPDATE_SCORE = "US";
+    public static final String REPLACE_TILES = "R";
+    public static final String GIVE_TILES = "GT";
+    public static final String FINISH_GAME = "X";
+    public static final String DISCONNECT = "D";
+    public static final String CUSTOM_COMMAND = "/";
+    public static final String CUSTOM_EXCEPTION = "!";
+    public static final String PRINT_STATE = "PRINT_STATE";
+    public static final String INPUT_ROW = "INPUT_ROW";
+    public static final String INPUT_COL = "INPUT_COL";
+    public static final String INPUT_WORD = "INPUT_WORD";
+    public static final String WAIT = "WAIT";
+    public static final String YOUR_TURN = "YOUR_TURN";
+    public static final String INVALID_MOVE = "INVALID_MOVE";
+    public static final String FINISH_MOVE = "FINISH_MOVE";
+    public static final String WINNER = "WINNER";
+    public static final String WIN = "WIN";
+    public static final String LOSE = "LOSE";
+    public static final String PRINT_RACK = "PRINT_RACK";
+    public static final String PRINT_MENU = "PRINT_MENU";
+    public static final String INVALID_CHOICE = "INVALID_CHOICE";
+    public static final String CHANGE_TILES = "CHANGE_TILES";
+    public static final String TEN_SEC_LEFT = "TEN_SEC_LEFT";
+    public static final String TIME_UP = "TIME_UP";
+    public static final String PRINT_SCORE = "PRINT_SCORE";
+}
